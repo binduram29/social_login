@@ -258,10 +258,10 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   binding.pry
-  config.omniauth :twitter, 'C0HhBTDNFSiVJ27mBiYarhU81','cFS0xeuJ53Yk3ItIm1TGfAsIld9CgzS9xG5wuQvmNHiLkGMhSl',scope: 'public_profile', profile_fields: 'email, first_name, last_name,nick_name'
+  config.omniauth :twitter, 'ogXDziiiiqKpUT6dnyhgUpgM9','q7q7e70ECfXSwxUSK6655XTFHIBxPhI1MYEnJNgus3lwVcPQNE',scope: 'public_profile', profile_fields: 'email, first_name, last_name,nick_name'
   config.omniauth :github, 'ea558416ce7532038c63', 'a7249a91acbc52b35f1503ef5336d3d729494ff5', scope: 'user,public_repo'
   config.omniauth :facebook, '382705638895362', '50b5accd0f345360821861856fabf5db', scope: 'public_profile,email'
-  config.omniauth :google_oauth2, '396881521304-4lu881gta7e400ceaj7v34c7mbkfltcr.apps.googleusercontent.com', 'nrOKIe5wjnDdPf895KIIB2kr', scope: 'userinfo.email,userinfo.profile'
+  config.omniauth :google_oauth2, '141783052988-pk85qqfl5j8b1rfvms7lto3dggo32pip.apps.googleusercontent.com', 'FWKwOyi5kp069cJERnHNmAhd', scope: 'userinfo.email,userinfo.profile'
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
